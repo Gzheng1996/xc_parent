@@ -26,7 +26,9 @@ public class ManageCmsApplication {
 
         System.out.println("王者峡谷+sss");
 
+
         System.out.println("搞毛线+sss");
+
 
         return new RestTemplate(new OkHttp3ClientHttpRequestFactory());
 
