@@ -23,6 +23,7 @@ public class ManageCmsApplication {
 
     @Bean
     public RestTemplate getOkHttp(){
+        System.out.println("搞毛线+sss");
         return new RestTemplate(new OkHttp3ClientHttpRequestFactory());
     }
 
