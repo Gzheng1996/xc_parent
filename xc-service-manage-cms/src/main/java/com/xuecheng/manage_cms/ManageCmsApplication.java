@@ -30,7 +30,7 @@ public class ManageCmsApplication {
         System.out.println("搞毛线+sss");
 
         System.out.println("管正哈哈哈哈哈");
-
+        System.out.println("我的是1分支");
         return new RestTemplate(new OkHttp3ClientHttpRequestFactory());
 
     }
