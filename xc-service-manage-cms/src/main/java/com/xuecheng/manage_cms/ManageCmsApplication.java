@@ -29,6 +29,7 @@ public class ManageCmsApplication {
 
         System.out.println("搞毛线+sss");
 
+        System.out.println("管正哈哈哈哈哈");
 
         return new RestTemplate(new OkHttp3ClientHttpRequestFactory());
 
